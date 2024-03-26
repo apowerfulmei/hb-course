@@ -1,4 +1,3 @@
 #!/bin/bash
-cd ./docker
-docker build -t upload-labs .
-docker run -d -p 80:80 upload-labs:latest
+docker pull c0ny1/upload-labs
+docker run -d -p 80:80 c0ny1/upload-labs
